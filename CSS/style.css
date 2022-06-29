@@ -67,6 +67,10 @@ h2 {
   color: lightslategray;
 }
 
+.entrada-texto:focus {
+  outline: none;
+}
+
 .btn {
   height: 50px;
   width: 50px;
@@ -80,6 +84,7 @@ h2 {
 .btn:hover {
   background-color: rgb(213, 221, 230);
   transform: scale(1.03);
+  color: #fff;
 }
 
 .lista-container {
