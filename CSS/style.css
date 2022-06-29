@@ -40,11 +40,6 @@ fieldset {
   align-items: center;
 }
 
-fieldset span {
-  font-size: 20px;
-  color: gray;
-}
-
 h2 {
   margin: 15px;
 }
@@ -79,6 +74,13 @@ h2 {
   border-bottom-right-radius: var(--borda-curva);
   cursor: pointer;
   transition: 1s all;
+  padding-top: 3px;
+  color: gray;
+  font-weight: bold;
+}
+
+ion-icon {
+  font-size: 25px;
 }
 
 .btn:hover {
@@ -90,3 +92,9 @@ h2 {
 .lista-container {
   text-align: center;
 }
+
+#task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
