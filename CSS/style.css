@@ -69,6 +69,7 @@ h2 {
   border: var(--borda);
   border-top-right-radius: var(--borda-curva);
   border-bottom-right-radius: var(--borda-curva);
+  cursor: pointer;
 }
 
 .lista-container {
