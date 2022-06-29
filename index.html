@@ -9,7 +9,26 @@
 </head>
 <body>
 <main>
-  adsfihdsf
+  <form>
+    <fieldset>
+      <h2>Adicione uma nova tarefa:</h2>
+      <div class="input-container">
+        <input type="text" placeholder="O que você vai fazer?" class="entrada-texto" id="task-title">
+        <button class="btn" id="add-btn"><span>+</span></button>
+      </div>      
+    </fieldset>
+  </form>
+
+  <div class="lista-container">
+    <h2>Estas são as suas tarefa:</h2>
+    <ul id="task-list">
+      <li class="task-box">
+        <span class="task-title"></span>
+        <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+        <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+      </li>
+    </ul>
+  </div>
 </main>
   <script src="/JS/main.js"></script>
 </body>
