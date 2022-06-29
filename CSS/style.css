@@ -63,6 +63,10 @@ h2 {
   border-bottom-left-radius: var(--borda-curva);
 }
 
+.entrada-texto::placeholder {
+  color: lightslategray;
+}
+
 .btn {
   height: 50px;
   width: 50px;
@@ -70,6 +74,12 @@ h2 {
   border-top-right-radius: var(--borda-curva);
   border-bottom-right-radius: var(--borda-curva);
   cursor: pointer;
+  transition: 1s all;
+}
+
+.btn:hover {
+  background-color: rgb(213, 221, 230);
+  transform: scale(1.03);
 }
 
 .lista-container {
