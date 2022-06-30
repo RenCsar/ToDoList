@@ -14,7 +14,7 @@
     #008793,
     #00bf72,
     #a8eb12
-  );
+  ) fixed;
   --fonte: 'Roboto', sans-serif;
   --color: white;
   --borda: 2px solid lightgray;
@@ -28,7 +28,6 @@ body {
 }
 
 main {
-  height: 650px;
   margin: 0 auto;
 }
 
