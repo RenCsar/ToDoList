@@ -35,10 +35,8 @@ function addTask() {
 
     //Limpar texto do input
     document.querySelector("#task-title").value = "";
-
-
-  }
-}
+  };
+};
 
 //função de remover tarefa
 function removeTask(task){
@@ -56,4 +54,4 @@ const addBtn = document.querySelector("#add-btn");
 addBtn.addEventListener("click", (e)=> {
   e.preventDefault();
   addTask();
-})
+});
