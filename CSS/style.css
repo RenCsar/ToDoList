@@ -127,11 +127,11 @@ ion-icon {
   transition: .5s;
 }
 
-.done-btn {
+#task-list .done-btn {
   right: 40px;
 }
 
-.done-btn:hover {
+#task-list .done-btn:hover {
   color: #a8eb12;
 }
 
